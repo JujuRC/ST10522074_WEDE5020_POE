@@ -1,0 +1,65 @@
+PROPOSAL NOTES
+
+Founded in 2026, KNIGHTLY is an NGO focused on nightly protection within neighbourhoods and areas providing additional lights and cameras in public areas, for public protection.We use solar panels for our lights and in collaboration with the government aim to get as many lights up and cameras up as possible to help crack down on violence and crimes. 
+
+This was prompted by the increase of violent crimes at night or especially during loadshedding. Due to the increase of violence in South Africa and the increase of violent crimes that go unsolved. Our founders grew up in Delft, where most streets had one light on or no lights, where crimes occurred either in the early mornings or in the late evenings where it is difficult to see. For the large amounts of South Africans who take public transport in the mornings or have to walk down from main roads from taxis in the evenings. Our goal is to provide some sort of protection for them, and if what we do isn't enough to save a belonging or a life we would like to at least ensure that Justice is served, whether it is returning the belonging, catching the thief or finally letting a soul rest. Our goal is to reduce crime. We aim to reach all of south Africa , but most importantly commuters, people in unsafe neighborhoods as well as to reach more funders, public protection groups as well as aim to continue our government collaborations.
+
+
+------
+
+
+Our website should aim to inform on violence statics, ways to protect yourself when walking at night and attract our target audience.
+
+Indicators of success would be, at least a 0.5% decrease in unsolved crimes this year and an increase in investors and continued collaboration with the government.
+
+------
+
+Current website : none
+
+Bad
+No Online presence
+no brand identity 
+no listed contact information
+NO search engine optimization
+
+improvements
+Develop a free to use website
+Share information 
+Became creditable and reachable for investors
+
+------
+
+Website features and functionality
+Needs:
++ Home page - introduction to the NGO and highlights the amount of crime in south Africa and our goal. 
++ Projects page - Future project and where we have already put up lights.
++ Protect yourself - How you can stay safe while out at night.
++ About - Our history 
++ Contact us page - contact details
+
+Mobile first responsiveness 
+Social Media Links
+
+------
+
+Shades of dark blues, Black and White. For moon darkness and light 
+Fonts : Noto Sans, Merriweather,Playfair
+
+
+------
+Hosting and domain , 
+Afrihost
+Domain: www.knightly.co.za
+
+LAnguage framework
+HTML, CSS,Javascript
+------
+days 1 - 2 proposal (10 April)
+day 3 submit proposal
+days 4 - 9 HTML development 
+day 13 submit part 1 due (20 april)
+day 14 - 17 establish link to pages
+
+------
+1000 * 900 * 1300 + 100
+------
