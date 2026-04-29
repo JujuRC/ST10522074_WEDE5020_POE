@@ -65,4 +65,4 @@ Open index.html in your preferred web browser.
 ____________________________________________________________________________________________
 
 ## 💡 Technical Focus
-Semantic HTML5: High priority on using meaningful tags (like <main>, <section>, and <nav>) to ensure the site is accessible for screen readers and optimized for SEO. Mobile-First Intent: Although currently in the skeleton phase, the structure is built to transition easily into a responsive CSS layout.
+Semantic HTML5: high priority on using meaningful tags to ensure the site is accessible for screen readers and optimized for SEO. Mobile-First Intent, although currently in the skeleton phase, the structure is built to transition easily into a responsive CSS layout.
