@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  } 
+.navbar a {
+    color: #f1c40f;                
+    text-decoration: none;         
+    padding: 10px 20px;            
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;             
+  }
+.navbar a:hover {
+    color: #ffffff;                    
+    border-radius: 5px;            
+  }
+  /* INDEX PAGE */
+#index header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    background-color: black;
+  }
+#index h1 {
+    color:aliceblue;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: black;
+ }
+#index .herosec {
+   position:relative;
+   width: 100%;
+   height: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+#index .headerimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    z-index: 1;
+}
+#index .herotext {
+    z-index: 2 ;
+    color: rgb(5, 69, 134);
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.005);
+    max-width: 800px;
+    border-radius: 10px;
+}
+#index .herotext h1 {
+    position: relative;
+    font-size: 3rem;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+#index .herotext p {
+    position: relative;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+#index .imgA {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color:rgb(60, 119, 126);
+    z-index: 1;
+}
+#index .imgA img {
+    width: 60%;
+    height: 100%;
+    text-align: right;
+    object-fit: cover;
+    background-color:rgb(61, 70, 89);
+    position: relative;
+    z-index: 1;
+}
+#index .imgA h2 {
+    position: relative;
+    width: 30%;
+    font-size: 3.5rem;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    color:rgb(5, 52, 138);
+    z-index: 3;
+
+}
+#index .imgA .backA {
+    position: absolute;
+    top: 0;
+    left: 60%;
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    filter: blur(5px);
+    z-index: 2;
+}
+#index .imgP {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 400px;
+    background-color:rgb(60, 119, 126);
+    z-index: 1;
+}
+#index .imgP h3 {
+    position: relative;
+    width: 40%;
+    font-size: 3.5rem;
+    margin-top: 10px;
+    padding-left: 20px;
+    color:rgb(5, 52, 138);
+    z-index: 3;
+
+}
+#index .imgP .backP {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    filter: blur(5px);
+    z-index: 2;
+}
+#index .imgP img {
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    background-color:rgb(61, 70, 89);
+    position: relative;
+    z-index: 1;
+}
+#index .imgG {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color:rgb(60, 119, 126);
+    z-index: 1;
+}
+#index .imgG img {
+    width: 60%;
+    height: 100%;
+    text-align: right;
+    object-fit: cover;
+    background-color:rgb(61, 70, 89);
+    position: relative;
+    z-index: 1;
+}
+#index .imgG h4 {
+    position: relative;
+    width: 30%;
+    font-size: 3.5rem;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    color:rgb(5, 52, 138);
+    z-index: 3;
+
+}
+#index .imgG .backG {
+    position: absolute;
+    top: 0;
+    left: 60%;
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    filter: blur(5px);
+    z-index: 2;
+}
+#index footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    background-color: black;
+}
+#index footer a {
+    background-color: black;
+    color: #f1c40f;                           
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;                 
+}
+#index footer a:hover {
+    color: #ffffff;                    
+    border-radius: 5px; 
+}
+/* ABOUT PAGE */

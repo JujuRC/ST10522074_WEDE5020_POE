@@ -3,39 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>KNIGHTLY - Website</title>
 </head>
-<body>
+<body id="index">
 
     <header>
         <img src="images/Logo.png" alt="logo" width="2%">
-        <nav>
-            <a href="index.html">HOME</a>
+        <nav class="navbar">
+           <a href="index.html">Home</a>
+           <a href="about.html">About Us</a>
+           <a href="projects.html">Projects</a>
+           <a href="guide.html">Guides</a>
+           <a href="contact.html">Contact Us</a>
         </nav>
     </header>
 
-    <hr> <section>
-        <img src="images/header.jpg" alt="Header image" width="20%">
-        <h1>Welcome to Our Website</h1>
-        <p>We are an NGO that aims to use to improve the safety of South Africans by increasing the amount of public cameras and night lights in our residential areas.</p>
+    <hr> <section class="herosec">
+        <img src="images/header.jpg" alt="Header image" width="20%" class="headerimg">
+        <div class="herotext">
+           <h1>Welcome to Our Website</h1>
+           <p>We are an NGO that aims to use to improve the safety of South Africans by increasing the amount of public cameras and night lights in our residential areas.</p>
+        </div>
     </section>
 
     <hr>
 
     <main>
-        <div>
+        <div class="imgA">
             <img src="images/cameras.jpg" alt= "Image of cameras" width="200">
-            <h3><a href="about.html">About Us</a></h3>
+            <h2><a href="about.html">About Us</a></h2>
+            <img src="images/cameras.jpg" alt= "Image of cameras blurry background" width="200" class="backA">
         </div>
 
-        <div>
-            <img src="images/solar.jpg" alt= "Image of small solar panel" width="200">
+        <div class="imgP">
+            <img src="images/solar.jpg" alt= "Image of small solar panel blurry background" width="200" class="backP">
             <h3><a href="projects.html">Our Projects</a></h3>
+            <img src="images/solar.jpg" alt= "Image of small solar panel" width="200">
         </div>
 
-        <div>
+        <div class="imgG">
             <img src="images/hug.jpg" width="200">
-            <h3><a href="guide.html">Learn how to protect yourself</a></h3>
+            <h4><a href="guide.html">Learn how to protect yourself</a></h4>
+            <img src="images/hug.jpg" alt= "Image of hug blurry background" width="200" class="backG">
         </div>
     </main>
 
