@@ -2,34 +2,44 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  } 
+    overflow-x: hidden;
+    font-family: merriweather, serif;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100vw;
+    background-color: black;
+} 
 .navbar a {
     color: #f1c40f;                
     text-decoration: none;         
     padding: 10px 20px;            
     font-size: 18px;
     font-weight: bold;
-    transition: 0.3s;             
-  }
+    transition: 0.3s;            
+}
 .navbar a:hover {
     color: #ffffff;                    
     border-radius: 5px;            
-  }
+}
   /* INDEX PAGE */
 #index header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 6px;
+    padding: 6px 24px;
+    width: 100%;  
     background-color: black;
-  }
+}
 #index h1 {
     color:aliceblue;
     font-size: 50px;
     text-align: center;
     margin-top: 100px;
     background-color: black;
- }
+    font-family: Playfair Display, serif;
+}
 #index .herosec {
    position:relative;
    width: 100%;
@@ -63,6 +73,7 @@
     font-size: 3rem;
     margin-top: 0px;
     margin-bottom: 1px;
+    font-family: Playfair Display, serif;
 }
 #index .herotext p {
     position: relative;
@@ -96,7 +107,7 @@
     margin-left: 20px;
     color:rgb(5, 52, 138);
     z-index: 3;
-
+    font-family: Playfair Display, serif;
 }
 #index .imgA .backA {
     position: absolute;
@@ -127,7 +138,7 @@
     padding-left: 20px;
     color:rgb(5, 52, 138);
     z-index: 3;
-
+    font-family: Playfair Display, serif;
 }
 #index .imgP .backP {
     position: absolute;
@@ -175,7 +186,7 @@
     margin-left: 20px;
     color:rgb(5, 52, 138);
     z-index: 3;
-
+    font-family: Playfair Display, serif;
 }
 #index .imgG .backG {
     position: absolute;
@@ -207,3 +218,260 @@
     border-radius: 5px; 
 }
 /* ABOUT PAGE */
+#about header {
+    display: flex;
+    align-items: center;
+    padding: 6px 24px;
+    width: 100%;  
+    background-color: black;
+}
+
+#about section {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 100%; 
+    position: relative;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(60, 119, 126);
+    z-index: 1;
+}
+#about section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color:rgb(61, 70, 89);
+    position: absolute;
+    z-index: 2;
+}
+#about section h1 {
+    position: relative;
+    font-size: 4rem;
+    color: rgb(222, 230, 237);
+    text-align: center;
+    z-index: 3;
+    background-color: rgba(251, 251, 251, 0.023);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Playfair Display, serif;
+}
+#about .A1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(247, 247, 249);
+}
+#about .A1 h2 {
+    font-size: 2.8rem;
+    color: rgb(5, 52, 138);
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration:underline;
+    text-decoration-style: double;
+    font-family: Playfair Display, serif;
+}
+#about .A1 p {
+    font-size: 1.5rem;
+    color: rgb(5, 52, 138);
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#about .A2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(20, 32, 172);
+}
+#about .A2 h3 {
+    font-size: 2.5rem;
+    color: rgb(222, 230, 237);
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Playfair Display, serif;
+}
+#about .A2 p {
+    font-size: 1.5rem;
+    color: rgb(222, 230, 237);
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline-flex;
+}
+#about .A3 {
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(226, 226, 237);
+    color:rgb(17, 2, 57)
+}
+#about .A3 h4 {
+    font-size: 2.5rem;
+    color: rgb(130, 138, 146);
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Playfair Display, serif;
+}
+#about .A3 img {
+    display: inline;
+    width: 20%;
+    height: auto;
+    margin: 10px;
+}
+#about footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    background-color: black;
+}
+#about footer a {
+    background-color: black;
+    color: #f1c40f;                           
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;                 
+}
+#about footer a:hover {
+    color: #ffffff;                    
+    border-radius: 5px; 
+}
+/*PROJECTS PAGE */
+#projects header {
+    display: flex;
+    align-items: center;
+    padding: 6px 24px;
+    width: 100%;  
+    background-color: black;
+}
+#projects h1 {
+    color:aliceblue;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(1, 42, 130);
+    text-decoration: underline;
+    font-family: Playfair Display, serif;
+}
+#projects article {
+    display: flex;
+    flex-direction:column; 
+    text-align: left;
+    background-color: rgb(1, 42, 130);
+    border-radius: 5px;
+    overflow: hidden;
+}
+#projects article .P1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(1, 42, 130);
+    color:rgb(242, 243, 245);
+}
+#projects article .P1 h2 {
+    font-size: 1.8rem;
+    color: rgb(242, 243, 245);
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration:underline;
+    font-family: Playfair Display, serif;
+}
+#projects article .P1 p {
+    font-size: 1.2rem;
+    color: rgb(242, 243, 245);
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#projects article .P2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(1, 42, 130);
+    color:rgb(242, 243, 245);
+}
+#projects article h3 {
+    font-size: 1.5rem;
+    color: rgb(242, 243, 245);
+    margin-bottom: 2px;
+    font-weight: bold;
+    text-decoration:underline;
+    font-family: Playfair Display, serif;
+}
+#projects article .P2 p {
+    font-size: 1rem;
+    color: rgb(242, 243, 245);
+    line-height: 1.6;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 55%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+#projects article .P2 .img {
+    width: 45%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px 0px 0px 4px;
+    flex-shrink: 0;
+}
+#projects article .P3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(1, 42, 130);
+    color:rgb(242, 243, 245);
+}
+#projects article .P3 h4 {
+    font-size: 1.8rem;
+    color: rgb(242, 243, 245);
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration:underline;
+    font-family: Playfair Display, serif;
+}
+#projects article .P3 p {
+    font-size: 1.2rem;
+    color: rgb(242, 243, 245);
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#projects article .P3 p img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 10px;
+}
+#projects footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    background-color: black;
+}
+#projects footer a {
+    background-color: black;
+    color: #f1c40f;                           
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;                 
+}
+#projects footer a:hover {
+    color: #ffffff;                    
+    border-radius: 5px; 
+}
+/* GUIDE PAGE */
