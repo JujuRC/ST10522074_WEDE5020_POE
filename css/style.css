@@ -24,14 +24,14 @@
     color: #ffffff;                    
     border-radius: 5px;            
 }
-  /* INDEX PAGE */
-#index header {
+header {
     display: flex;
     align-items: center;
     padding: 6px 24px;
     width: 100%;  
     background-color: black;
 }
+  /* INDEX PAGE */
 #index h1 {
     color:aliceblue;
     font-size: 50px;
@@ -218,14 +218,6 @@
     border-radius: 5px; 
 }
 /* ABOUT PAGE */
-#about header {
-    display: flex;
-    align-items: center;
-    padding: 6px 24px;
-    width: 100%;  
-    background-color: black;
-}
-
 #about section {
     display: flex;
     justify-content: center;
@@ -344,13 +336,6 @@
     border-radius: 5px; 
 }
 /*PROJECTS PAGE */
-#projects header {
-    display: flex;
-    align-items: center;
-    padding: 6px 24px;
-    width: 100%;  
-    background-color: black;
-}
 #projects h1 {
     color:aliceblue;
     font-size: 50px;
