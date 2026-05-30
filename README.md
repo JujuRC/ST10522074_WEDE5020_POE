@@ -45,17 +45,44 @@ ________________________________________________________________________________
 - [x] Ensure ARIA labels and accessibility standards
 
 ### Phase 2: Styling & UI
-- [ ] Implement global CSS variables (colors/fonts)
-- [ ] Design responsive navigation menu
-- [ ] Build layout using CSS Grid/Flexbox
-- [ ] Add transitions and hover effects
+- [x] Implement global CSS variables (colors/fonts)
+- [x] Design responsive navigation menu
+- [x] Build layout using CSS Grid/Flexbox
+- [x] Add transitions and hover effects
 
 ### Phase 3: Functionality
 - [ ] Add JavaScript for form handling
 - [ ] Implement interactive components (e.g., modals or tabs)
 - [ ] Domain application 
 ____________________________________________________________________________________________
+## 🛠️ Features & Implementation
 
+### 1. Unified Base Style & Reset
+* Implemented a comprehensive universal CSS box-sizing reset to ensure identical structural layout rendering across all major browsers (Chrome, Safari, Firefox, Edge).
+* Centralized scrolling mechanics and page overflows securely on the global root layers to prevent layout clipping.
+
+### 2. Typographic Harmony
+* Established an elegant visual hierarchy using pairing typography: **Playfair Display** for classic, high-impact editorial headings, paired with **Merriweather** for incredibly crisp, readable body copy and list elements.
+
+### 3. Structured Layouts (Flexbox)
+* Built entirely dynamic, container-based layouts utilizing CSS Flexbox rows and columns.
+* Features sleek "full-bleed" layout rows on the Projects showcase where imagery locks seamlessly flush against the grid walls.
+* Created a clean, responsive card-based layout for user interaction on the Contact page.
+
+### 4. Interactive States
+* Implemented smooth, animated transitions (`0.3s ease`) across all interactive touchpoints.
+* Covered complete user accessibility by custom styling `:hover`, `:focus-visible` (for keyboard navigation), and tactile `:active` scaling effects on all navigation links and form buttons.
+
+### 5. Full Mobile Responsiveness
+* Engineered defensive `@media` queries optimizing the entire platform for mobile phones and tablets (breakpointed at `768px`).
+* Media layers seamlessly transition rigid desktop horizontal rows into stacked, thumb-friendly vertical columns with dynamic font down-scaling.
+
+## Tech Stack Used
+* **HTML5:** Semantic architecture (`<header>`, `<nav>`, `<section>`, `<article>`, `<form>`)
+* **CSS3:** Custom Flexbox layouts, advanced positioning layers, CSS transitions, and Media Queries
+* **Google Fonts:** Playfair Display & Merriweather
+
+____________________________________________________________________________________________
 ## Usage
 
 Clone the repo: git clone [https://github.com/JujuRC/ST10522074_WEDE5020_POE]
