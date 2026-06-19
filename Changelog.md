@@ -24,3 +24,4 @@
 + Filled in tasks in Phase 3 of Readme.mb and added the features and implications section for phase 3 to the Readme.mb
 + Added Sitemap and Robot.txt
 + Added Interactive map. 
++ Made all the h1's the same size across pages to increase typography consistency
