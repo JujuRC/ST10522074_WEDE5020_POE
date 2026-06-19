@@ -53,7 +53,7 @@ ________________________________________________________________________________
 ### Phase 3: Functionality
 - [x] Add JavaScript for form handling
 - [x] Implement interactive components (e.g., modals or tabs)
-- [ ] Domain application 
+- [x] Domain application 
 ____________________________________________________________________________________________
 ## Features & Implementation: Phase 2
 

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jujurc.github.io/ST10522074_WEDE5020_POE/sitemap.xml
