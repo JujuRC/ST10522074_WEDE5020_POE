@@ -124,7 +124,7 @@ Open index.html in your preferred web browser.
 
 ____________________________________________________________________________________________
 
-## 💡 Technical Focus
+## Technical Focus
 Semantic HTML5: high priority on using meaningful tags to ensure the site is accessible for screen readers and optimized for SEO. Mobile-First Intent, although currently in the skeleton phase, the structure is built to transition easily into a responsive CSS layout.
 
 _____________________________________________________________________________________________
@@ -188,6 +188,8 @@ GlobalGiving.2000. Download the Complete list of Nonprofits and Charities in Sou
 Africa. [Online]. Available at: https://www.globalgiving.org/atlas/country/south-africa/ 
 [Accessed 13 April 2026]. 
 
+GoDaddy. Shine bright online with knightly.co.za – your bold brand awaits! . [Online]. Available at: https://www.godaddy.com
+
 Google Font, n.d. Free Fonts Library. [Online]. Available at: https://fonts.google.com. [Accessed on 30 May 2026].
 
 Hardae. 2022. Hill mountain plants trees. [Online]. Available at: 
@@ -201,6 +203,8 @@ https://fonts.google.com/noto/specimen/Noto+Sans?query=noto [Accessed 13 April
 2026]. 
 
 OpenStreetMap Contributors, n.d. OpenStreetMap Tiles. [Online]. Available at: https://www.openstreetmap.org/copyright. [Accessed on 19 June 2026].
+
+SeaPoint,CID. Saps logo. [Online]. Available at: https://seapointcid.org/saps-logo/ [Accessed 28 April 2026].
 
 Sochnev, A. 2019.Modern urban building with brick and metal facade. [Online]. 
 Available at: https://www.pexels.com/photo/modern-urban-building-with-brick-and
