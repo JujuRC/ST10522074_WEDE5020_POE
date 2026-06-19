@@ -1,13 +1,23 @@
 # ST10522074_WEDE5020_POE
 Rosebank College WEDE assignment
 https://github.com/JujuRC/ST10522074_WEDE5020_POE
-https://jujurc.github.io/ST10522074_WEDE5020_POE 
+https://jujurc.github.io/ST10522074_WEDE5020_POE/
 
 This is the HTML code for the Knightly Website. at a later date I will be adding the Css and JavaScript to make the site more appealing to our target audience. This website is being made to solve the lack of website credibilty and online presence. We hope thi website will help reach those in need of our cause as well as people to help widen our reach.
 
 Work of : Justine Bakundukize, ST10522074.
 
 Status: Underconstruction , however HTML skeleton is complete.
+
+____________________________________________________________________________________________
+
+## Overview
+
+Founded in 2026, KNIGHTLY is an NGO focused on nightly protection within neighbourhoods and areas providing additional lights and cameras in public areas, for public protection.We use solar panels for our lights and in collaboration with the government aim to get as many lights up and cameras up as possible to help crack down on violence and crimes. 
+
+This was prompted by the increase of violent crimes at night or especially during loadshedding. Due to the increase of violence in South Africa and the increase of violent crimes that go unsolved. Our founders grew up in Delft, where most streets had one light on or no lights, where crimes occurred either in the early mornings or in the late evenings where it is difficult to see. For the large amounts of South Africans who take public transport in the mornings or have to walk down from main roads from taxis in the evenings. Our goal is to provide some sort of protection for them, and if what we do isn't enough to save a belonging or a life we would like to at least ensure that Justice is served, whether it is returning the belonging, catching the thief or finally letting a soul rest. Our goal is to reduce crime. We aim to reach all of south Africa , but most importantly commuters, people in unsafe neighborhoods as well as to reach more funders, public protection groups as well as aim to continue our government collaborations.
+
+____________________________________________________________________________________________
 
 ## wireframes
 The following wireframes are designed to prioritize a user-friendly layout.
@@ -116,3 +126,107 @@ ________________________________________________________________________________
 
 ## 💡 Technical Focus
 Semantic HTML5: high priority on using meaningful tags to ensure the site is accessible for screen readers and optimized for SEO. Mobile-First Intent, although currently in the skeleton phase, the structure is built to transition easily into a responsive CSS layout.
+
+_____________________________________________________________________________________________
+
+## Responsive testing 
+
++ Desktop 
+![alt text](image.png)
+
++ Mobile 
+![alt text](<WhatsApp Image 2026-06-19 at 21.33.57.jpeg>)
+
+_______________________________________________________________________________________________
+
+## References
+
+Afrihost. 2026. Domains. [Online]. Available at: https://www.afrihost.com/domains 
+[Accessed 13 April 2026]. 
+
+Bolwa.2025. Which Areas in South Africa Need Security Most? 2026 Crime Data Reveals 
+Shocking Trends. [Online] Available at:  https://bolwasecurityservices.co.za/which
+areas-in-south-africa-need-security-most-2025-crime-data-reveals-shocking-trends/ 
+[Accessed 13 April 2026]. 
+
+CCTC Direct.2004. Security Camera’s. [Online]. Available at: https://cctv
+direct.co.za/collections/security-camera-s?srsltid=A [Accessed 13 April 2026]. 
+
+City of Cape Town.2015. Regulation of external and privately owned CCTV cameras on 
+city property policy. [Online]. Available at: 
+https://resource.capetown.gov.za/documentcentre/Documents/ [Accessed 13 April 
+2026]. 
+
+Color-hex.2023. Dark Blue Color Palette. [Online]. Available at: https://www.color
+hex.com/color-palette/8228 [Accessed 13 April 2026]. 
+
+Cottonbro studio.2021. A person holding a light sphere. [Online]. Available at: 
+https://www.pexels.com/photo/a-person-holding-a-light-sphere-7170873/ [Accessed 
+13 April 2026]. 
+
+Cottonbro studio.2021. [Online]. A 3D illustration of a handshake. Available at: A 3D 
+Illustration of a Handshake · Free Stock Photo [Accessed 28 April 2026]. 
+
+Mozilla. <Name-color> CSS type. [Online]. Available at: https://developer.mozilla.org/ [Accessed 30 May 2026].
+
+Figma.2016. Black. [Online]. Available at: https://www.figma.com/colors/black/ 
+[Accessed 13 April 2026]. 
+
+Figma.2016. Yellow. [Online]. Available at: https://www.figma.com/colors/yellow/ 
+[Accessed 13 April 2026]. 
+
+Figma.2016. White. [Online]. Available at: https://www.figma.com/colors/white/ 
+[Accessed 13 April 2026]. 
+
+Getty Images.2023. Close up of two white CCTV cameras attached to a blank gray wall 
+outside. Concept of security and surveillance. 3d rendering toned image. [Online]. 
+Available at: https://unsplash.com/photos/close-up-of-two-white-cctv-cameras
+attached-to-a-blank-gray-wall-outside-concept-of-security-and-surveillance-3d
+rendering-toned-image-aNgsW-Rz-18 [Accessed 13 April 2026]. 
+
+GlobalGiving.2000. Download the Complete list of Nonprofits and Charities in South 
+Africa. [Online]. Available at: https://www.globalgiving.org/atlas/country/south-africa/ 
+[Accessed 13 April 2026]. 
+
+Google Font, n.d. Free Fonts Library. [Online]. Available at: https://fonts.google.com. [Accessed on 30 May 2026].
+
+Hardae. 2022. Hill mountain plants trees. [Online]. Available at: 
+https://pixabay.com/illustrations/hill-mountain-plant-trees-sunset-7402780/ 
+[Accessed 28 April 2026].  
+
+Leaflet, n.d. Leaflet — an open‑source JavaScript library for mobile‑friendly interactive maps. [Online]. Available at: https://leafletjs.com. [Accessed on 19 June 2026].
+
+Matteson, S.2012. Noto Sans. [Online]. Available at: 
+https://fonts.google.com/noto/specimen/Noto+Sans?query=noto [Accessed 13 April 
+2026]. 
+
+OpenStreetMap Contributors, n.d. OpenStreetMap Tiles. [Online]. Available at: https://www.openstreetmap.org/copyright. [Accessed on 19 June 2026].
+
+Sochnev, A. 2019.Modern urban building with brick and metal facade. [Online]. 
+Available at: https://www.pexels.com/photo/modern-urban-building-with-brick-and
+metal-facade-30820686/ [Accessed 13 April 2026].  
+
+Sørensen, C.E. 2011.Playfair. [Online]. Available at: 
+https://fonts.google.com/specimen/Playfair [Accessed 13 April 2026]. 
+
+Sorkin Type.2011. Merriweather. [Online]. Available at: 
+https://fonts.google.com/specimen/Merriweather [Accessed 13 April 2026]. 
+
+StatsSA.1998. Crimes. [Online]. Available at:  https://www.statssa.gov.za/?cat=26 
+[Accessed 13 April 2026]. 
+
+Sustainable.2002. Solar Panels. [Online]. Available at: 
+https://www.sustainable.co.za/collections/solar-panels?srsltid=AfmBOoqqg1x
+Ru2hEcDSpUm5-IoDw37Ajmb2JJEwYxOoWP5YoiJUkbmL [Accessed 13 April 2026]. 
+
+Uttley J., Canwell R., Smith J., Falconer S., Mao Y., Fotios S.2025. Does darkness 
+increase the risk of certain types of crime? A registered report article. [Online]. Available 
+at: https://doi.org/10.1371/journal.pone.0324134 [Accessed 13 April 2026]. 
+
+WebPartner. 2026. Average Monthly Fee for Website Maintenance in South Africa. 
+[Online]. Available at: https://www.webpartner.co.za/blog/121-average-monthly
+maintenance-fee/ [Accessed 13 April 2026].
+
+W3C, n.d. CSS Syntax. [Online]. Available at: https://www.w3schools.com/css/css_syntax.ASP. [Accessed 30 May 2026].
+
+W3C, n.d. Sitemap Protocol. [Online]. Available at: https://www.sitemaps.org/protocol.html. [Accessed on 19 June 2026].
