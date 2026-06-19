@@ -741,6 +741,14 @@ header {
 #contact .socials img:hover {
     transform: scale(1.15);
 }
+#map {
+    height: 400px;  
+    width: 100%;   
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 2px solid rgb(5, 52, 138); 
+}
 /* RESPONSIVE DESIGN */
 @media screen and (max-width: 768px) {   
 header {

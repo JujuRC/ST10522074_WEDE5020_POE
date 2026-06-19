@@ -23,3 +23,4 @@
 + Implemented key words tto HTML pages as well as site despcription. 
 + Filled in tasks in Phase 3 of Readme.mb and added the features and implications section for phase 3 to the Readme.mb
 + Added Sitemap and Robot.txt
++ Added Interactive map. 

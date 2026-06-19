@@ -1,6 +1,7 @@
 # ST10522074_WEDE5020_POE
 Rosebank College WEDE assignment
 https://github.com/JujuRC/ST10522074_WEDE5020_POE
+https://jujurc.github.io/ST10522074_WEDE5020_POE 
 
 This is the HTML code for the Knightly Website. at a later date I will be adding the Css and JavaScript to make the site more appealing to our target audience. This website is being made to solve the lack of website credibilty and online presence. We hope thi website will help reach those in need of our cause as well as people to help widen our reach.
 

@@ -57,3 +57,13 @@ if (contactForm) {
         }, 1200);
     });
 }
+const mapContainer = document.getElementById("map");
+if (mapContainer) {
+    const map = L.map('map').setView([-26.2041, 28.0473], 13);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    const marker = L.marker([-33.99583, 18.47500]).addTo(map);
+    marker.bindPopup("<b>NGO Operational Center</b><br>Our hub for preparing public safety solar installations.").openPopup();
+}
