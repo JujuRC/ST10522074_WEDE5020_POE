@@ -51,11 +51,11 @@ ________________________________________________________________________________
 - [x] Add transitions and hover effects
 
 ### Phase 3: Functionality
-- [ ] Add JavaScript for form handling
-- [ ] Implement interactive components (e.g., modals or tabs)
+- [x] Add JavaScript for form handling
+- [x] Implement interactive components (e.g., modals or tabs)
 - [ ] Domain application 
 ____________________________________________________________________________________________
-## 🛠️ Features & Implementation
+## Features & Implementation: Phase 2
 
 ### 1. Unified Base Style & Reset
 * Implemented a comprehensive universal CSS box-sizing reset to ensure identical structural layout rendering across all major browsers (Chrome, Safari, Firefox, Edge).
@@ -82,6 +82,28 @@ ________________________________________________________________________________
 * **CSS3:** Custom Flexbox layouts, advanced positioning layers, CSS transitions, and Media Queries
 * **Google Fonts:** Playfair Display & Merriweather
 
+____________________________________________________________________________________________
+## Features & Implementation: Phase 3
+
+### 1. Interactive Elements: FAQ Accordion (about.html)
+* A custom-built accordian system designed to organize frequently asked questions efficiently without overwhelming the layout.
+* Uses document.querySelectorAll() to attach asynchronous click event listeners to targeted interactive triggers (.but).
+* Upon interaction, the DOM utilizes element navigation (this.nextElementSibling) to toggle a state-driven .active CSS class, smoothly revealing or collapsing hidden target panels (.ans).
+
+### 2. Form Functionality & Client-Side Validation (contact.html)
+* An asynchronous validation engine that intercepts general organization queries to verify input integrity before submission.
+* Captures the form's submit event and overrides traditional page refreshes using event.preventDefault().
+* Automatically extracts and evaluates user data parameters (verifying name length, checking email structures for "@" syntax constraints, enforcing minimum message lengths, and ensuring selection choices are populated).
+* Injects contextual status alerts into the UI interface using real-time DOM styling manipulation based on successful or failed criteria checks.
+
+### 3. Asynchronous Submission Simulation (AJAX)
+* Implements seamless frontend data processing without disruptive page reloads to match modern UX application standards.
+* Simulates standard web service response structures through a setTimeout() execution wrapper. 
+* Once client criteria pass, it compiles structural inputs cleanly into URI-encoded fragments, automatically bridging the data directly.
+
+## Tech Stack Used 
+* **Vanilla JavaScript (ES6+):** Used to handle the interactive accordion logic, catch form submissions, run client-side input validation, and simulate asynchronous AJAX workflows.
+* **CSS3:** Custom Flexbox layouts, advanced positioning layers, CSS transitions, and Media Queries
 ____________________________________________________________________________________________
 ## Usage
 

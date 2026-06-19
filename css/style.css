@@ -334,6 +334,9 @@ header {
     align-items: center;
     padding: 6px;
     background-color: black;
+    width: 100vw !important;
+    box-sizing: border-box;
+    clear: both;
 }
 #about footer a {
     background-color: black;
@@ -345,6 +348,49 @@ header {
 #about footer a:hover {
     color: #ffffff;                    
     border-radius: 5px; 
+}
+#about .faq {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+#about .faq h5 {
+    font-size: 2.5rem;
+    color: rgb(5, 52, 138);
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Playfair Display, serif;
+    text-align: center;
+}
+#about .faq .but {
+    background-color: #f1f1f1;
+    color: #333;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.4s;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+#about .faq .but:hover {
+    background-color: #ddd;
+}
+#about .faq .ans {
+    padding: 18px;
+    background-color: white;
+    display: none; 
+    overflow: hidden;
+    border: 1px solid #f1f1f1;
+    border-top: none;
+}
+#about .faq .ans.active {
+    display: block;
 }
 /*PROJECTS PAGE */
 #projects h1 {
